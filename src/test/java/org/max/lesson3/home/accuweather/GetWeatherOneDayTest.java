@@ -22,7 +22,7 @@ public class GetWeatherOneDayTest extends AccuweatherAbstractTest {
                 .get(getBaseUrl()+"/forecasts/v1/daily/1day/294021")
                 .then()
                 .statusCode(200)
-                .time(Matchers.lessThan(2000l))
+                .time(Matchers.lessThan(2000L))
                 .extract()
                 .response()
                 .body().as(Weather.class);

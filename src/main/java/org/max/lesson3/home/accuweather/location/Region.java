@@ -49,5 +49,4 @@ public class Region {
     public void setEnglishName(String englishName) {
         this.englishName = englishName;
     }
-
 }

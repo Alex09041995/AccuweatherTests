@@ -49,5 +49,4 @@ public class Country {
     public void setEnglishName(String englishName) {
         this.englishName = englishName;
     }
-
 }
